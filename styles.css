@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Geologica;
+}
+.container{
+    display: flex;
+    background-color: #005C78;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+
+.container > div{
+    flex-basis: 200px;
+    gap: 20px;
+    height: 350px;
+    color: white;
+    text-align: center;
+   
+}
+.sedans{
+    background-color: #e28525;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.suv-div{
+    background-color: #016972;
+}
+.luxury{
+    background-color: #00403f;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+.container-2 > div{
+
+}
+.icon{
+    margin-right: 100px;
+    margin-top: 5px;
+}
+.title{
+    text-transform: uppercase;
+}
+p{
+    margin: 5px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 7px 13px 9px 13px;
+    font-size: 13px;
+    position: relative;
+    margin-top: 39px;
+    
+}
+.suv{
+    
+}
+.p-sedens{
+     margin-bottom: 60px;
+
+}
+
+@media (max-width:576px) {
+    .container{
+        flex-direction: column;
+        
+    }
+    .container > div{
+        margin: 0px 20px 0px 20px;
+        height: 50%;
+    }
+    .sedans{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+        border-bottom-left-radius: 0px ;
+    }
+    .luxury{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        
+    }
+    p{
+        margin-bottom: 0px !important;
+    }
+    
+}
